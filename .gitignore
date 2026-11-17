@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+media/private/
+media/downloads/
+staticfiles/
+.env
+.env.local
+
+# Keep the small demo sample if present, but ignore generated artifacts
+media/demo/*.mp4
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
